@@ -1,0 +1,30 @@
+html{
+    background-color: #33334d;
+    box-sizing: border-box;
+    color: red;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+body {
+    border-radius: 4px;
+    background-color: white;
+    width: 50%;
+    height: 50%; 
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+  
+
+}
+div { 
+    color: palevioletred;
+}
+.miparrafo {
+    color: lightskyblue;
+}
+  div .miparrafo {
+    color: orange;
+}
