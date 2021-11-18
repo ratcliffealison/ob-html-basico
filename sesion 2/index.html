@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sesion 2</title>
+</head>
+<body style ="border: 1px solid black; border-radius: 2px; margin: 30px; padding: 30px;">
+    <h1>Welcome to the Form and Table page</h1>
+    <fieldset action="">
+        <legend>Escribe tus datos</legend>
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" placeholder="---" pattern="A-Za-z"><br>
+        <label for="apellidos">Apellidos:</label><br>
+        <input type="text" id="apellidos" name="apellidos" placeholder="---" pattern="A-Za-z"><br>
+        <label for="telefono">Telefono:</label><br>
+        <input type="text" id="telefono" name="telefono" placeholder="123456789" minlength="9" maxlength="9" pattern="0-9"><br>
+        <label for="correo">Correo Electronico:</label><br>
+        <input type="email" id="correo" name="correo" placeholder="example@email.com"><br>
+        <label for="direccion">Direccion:</label><br>
+        <input type="text" id="direccion" name="direccion" placeholder="Calle, Portal, Piso, Ciudad"pattern="A-Za-z0-9,"><br><br>
+        <input type="submit" value="Submit">
+    </fieldset> 
+      <table>
+        <caption> Animales que me gustan</caption>
+        <thead>
+        <tr>
+          <th>Animal</th>
+          <th>Comida</th>
+          <th>Años de vida</th>
+          <th>Rating /10</th>
+        </tr>
+      </thead>
+        <tr>
+          <td>tortuga</td>
+          <td>lechuga</td>
+          <td>30-40</td>
+          <td>7</td>
+        </tr>
+        <tr>
+          <td>gato</td>
+          <td rowspan="2">pienso</td>
+          <td>12-18</td>
+          <td>10</td>
+        </tr>
+        <tr>
+            <td>perro</td>     
+            <td>15</td>
+            <td>9</td>
+
+        </tr>
+        <tr>
+            <td>conejo</td>
+            <td>heno</td>
+            <td rowspan="2">8</td>
+          
+        </tr>
+        
+      </table>
+    
+</body>
+</html>
