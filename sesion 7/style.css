@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Quicksand:wght@300&display=swap');
+html, body 
+{margin: 0;
+padding: 0;
+font-family: 'Quicksand', sans-serif;
+}
+body{
+    background-image: url(sparkle.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+   }
+
+   header { 
+    padding: 5px;
+    position: absolute;
+    background-color: whitesmoke;
+    width: 100%;
+    opacity: 20%;
+    top: 0px;
+    color: black;
+    text-decoration: none;
+   }
+
+footer{
+       position: absolute;
+       background-color: whitesmoke;
+       width: 100%;
+       opacity: 20%;
+       bottom: 0px;
+       margin: 0 auto;
+       text-align: center;
+       color: black;
+       text-decoration: none;
+   }
+.header {
+    max-width: 70px;
+    text-align: left;  
+    float: left; 
+    padding-left: 14px;
+    padding-top: 5px;
+   }
+
+.footer a {
+       text-decoration: none;
+    color: black;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+
+   }
+.footer a:visited {
+    text-decoration: none;
+    color: darkgray;
+
+}
+
+.container {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.login-form {
+    background-color: whitesmoke;
+    max-width: 400px;
+    padding: 25px;
+    border-radius: 10px;
+    margin: 20px;
+    opacity: 90%;
+    align-items: center;
+}
+.login-form__field {
+    margin-bottom: 10px;
+}
+.login-form__field input {
+    width: 200px;
+    max-width: 100%;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: 'Quicksand', sans-serif
+    
+}
+
+input#username {
+    background: transparent;
+
+}
+input#password {
+    background: transparent;
+
+}
+input#check {
+    width: 20px;
+    height: 20px;
+}
+[for="check"] {
+    font-size: 13px;
+    color: darkgray;
+    position: relative;
+
+}
+button.login-form__button--button {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+    color: darkgrey;
+    background-color: white;
+    font-family: 'Quicksand', sans-serif
+    
+}
