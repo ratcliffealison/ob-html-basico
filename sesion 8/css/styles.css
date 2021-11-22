@@ -81,6 +81,7 @@ body {
     color: #ffffff;
     transition: 0.3s;
     text-align: center;
+    text-decoration: none;
     ;
 }
 .banner-btn:hover {
