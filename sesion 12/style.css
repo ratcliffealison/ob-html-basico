@@ -8,9 +8,12 @@ table {
 
 }
 
-th {color:     #344345;}
+th {
+    color:#344345;
+}
+
 td {
-    color: #587073;
+    color:#587073;
 }
 
 .container {
