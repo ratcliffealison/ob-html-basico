@@ -1,0 +1,35 @@
+body, html {
+    height: 100%;
+    background: rgb(252,244,217);
+    background: linear-gradient(169deg, rgba(252,244,217,1) 57%, rgba(255,255,255,1) 100%);
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+@media (max-width: 800px) {
+    .square {
+    background-color: #d55b3e;
+   }
+
+}
+@media (min-width: 800px) {
+    .square {
+        background-color: #00aaa0;
+       }
+  }
+
+
+  
+.container {
+    margin: 60px;
+}
+.square {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 4px;
+
+}
