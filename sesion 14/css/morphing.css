@@ -24,43 +24,43 @@ body {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  -webkit-animation: word 15s infinite ease-in-out;
-          animation: word 15s infinite ease-in-out;
+  -webkit-animation: word 10s infinite ease-in-out;
+          animation: word 10s infinite ease-in-out;
 }
 
 :nth-child(1) {
-  -webkit-animation-delay: -15s;
-          animation-delay: -15s;
+  -webkit-animation-delay: -10s;
+          animation-delay: -10s;
 }
 
 :nth-child(2) {
-  -webkit-animation-delay: -13.125s;
-          animation-delay: -13.125s;
+  -webkit-animation-delay: -8.75s;
+          animation-delay: -8.75s;
 }
 
 :nth-child(3) {
-  -webkit-animation-delay: -11.25s;
-          animation-delay: -11.25s;
-}
-
-:nth-child(4) {
-  -webkit-animation-delay: -9.375s;
-          animation-delay: -9.375s;
-}
-
-:nth-child(5) {
   -webkit-animation-delay: -7.5s;
           animation-delay: -7.5s;
 }
 
+:nth-child(4) {
+  -webkit-animation-delay: -6.25s;
+          animation-delay: -6.25s;
+}
+
+:nth-child(5) {
+  -webkit-animation-delay: -5s;
+          animation-delay: -5s;
+}
+
 :nth-child(6) {
-  -webkit-animation-delay: -5.625s;
-          animation-delay: -5.625s;
+  -webkit-animation-delay: -3.75s;
+          animation-delay: -3.75s;
 }
 
 :nth-child(7) {
-  -webkit-animation-delay: -3.75s;
-          animation-delay: -3.75s;
+  -webkit-animation-delay: -2.5s;
+          animation-delay: -2.5s;
 }
 
 @-webkit-keyframes word {
